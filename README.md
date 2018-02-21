@@ -5,8 +5,8 @@ For my solution, I am using a hash map since it provides a quick, constant looku
 
 
 ## Note:
-n = the number of words in the dictionary file
-m = the length of a word
+* n = the number of words in the dictionary file
+* m = the length of a word
 
 
 ## 1.
