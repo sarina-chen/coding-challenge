@@ -33,9 +33,9 @@ My program uses a HashMap of String to ArrayList for storing the key value mappi
 ## 3.
 We can divide up the dictionary file into smaller sub files that contain words with a range of length.
 For example:
-subDictionary[0] ==> contain words length 0..25
-subDictionary[1] ==> contain words length 26..50
-subDictionary[2] ==> contain words length 51..75
-subDictionary[3] ==> contain words length 76..100
+* subDictionary[0] ==> contain words length 0..25
+* subDictionary[1] ==> contain words length 26..50
+* subDictionary[2] ==> contain words length 51..75
+* subDictionary[3] ==> contain words length 76..100
 
 We can then determine which subDictionary file that we need to preprocess based on the length of the input word, since anagrams must exist with equal length.
